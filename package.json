@@ -4,7 +4,8 @@
   "description": "Facilita a integração e o uso de MongoDB e DynamoDB com uma API unificada",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "mocha src/test/**/*.test.js"
   },
   "author": "Julio Cesar Silva dos Santos <mail@julio.qa>",
   "license": "MIT",
@@ -17,11 +18,15 @@
     "API"
   ],
   "dependencies": {
-    "mongodb": "^6.13.0",
-    "@aws-sdk/client-dynamodb": "^3.744.0",
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "dynamoose": "^4.0.3",
+    "mongoose": "^8.10.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^11.1.0",
+    "sinon": "^19.0.2"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/julio-qa/NooSQL.git"

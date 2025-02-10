@@ -1,0 +1,30 @@
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+dist/
+build/
+
+# IDEs e editores
+.vscode/
+.idea/
+
+# Ambiente
+.env
+
+# Dependências
+/.pnp
+.pnp.js
+
+# Arquivos temporários
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs
+logs
+*.log

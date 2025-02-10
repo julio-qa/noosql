@@ -1,6 +1,6 @@
 {
   "name": "noosql",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Facilita a integração e o uso de MongoDB e DynamoDB com uma API unificada",
   "main": "index.js",
   "scripts": {

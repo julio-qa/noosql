@@ -1,0 +1,35 @@
+
+{
+  "name": "noosql",
+  "version": "1.0.0",
+  "description": "Facilita a integração e o uso de MongoDB e DynamoDB com uma API unificada",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo "Error: no test specified" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Julio Cesar Silva dos Santos <mail@julio.qa>",
+  "license": "MIT",
+  "keywords": [
+    "NoSQL",
+    "MongoDB",
+    "DynamoDB",
+    "database",
+    "integration",
+    "API"
+  ],
+  "dependencies": {
+    "mongodb": "^6.13.0",
+    "@aws-sdk/client-dynamodb": "^3.744.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NooSQL/NooSQL.git"
+  },
+  "homepage": "https://github.com/NooSQL/NooSQL",
+  "bugs": {
+    "url": "https://github.com/NooSQL/NooSQL/issues"
+  }
+}
